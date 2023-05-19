@@ -1,0 +1,71 @@
+/* Init */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Header */
+#header {
+  background-color: #9ba4b5;
+}
+
+/* First Header */
+.first {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.first__slogan {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.first__socials {
+  margin: 10px 0;
+}
+
+.social-link > i {
+  color: var(--black-color);
+}
+
+.social-link > i:first-child {
+  margin-right: 10px;
+}
+
+/* Second Header */
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second__logo {
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.logo-img {
+  width: 70px;
+}
+
+.second__menu {
+  display: flex;
+}
+
+.menu-item {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.menu-item-link--slash::after {
+  content: "";
+  width: 1px;
+}

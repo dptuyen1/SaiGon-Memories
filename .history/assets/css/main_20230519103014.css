@@ -1,0 +1,25 @@
+/* Init */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Header */
+#header {
+  background-color: var(--primary-color);
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: auto;
+}

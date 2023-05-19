@@ -1,0 +1,38 @@
+/* Init */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+#header {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__brand-img-link {
+}
+.navbar__brand-img {
+  width: 100px;
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__menu-item {
+}
+.navbar__menu-item-link {
+}
+.navbar__login {
+}
+.navbar__login-item {
+}
+.navbar__login-link {
+}

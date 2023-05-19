@@ -1,0 +1,23 @@
+/* Init */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-color);
+}
+.first-header__slogan {
+}
+.first-header__socials {
+}
+.social-link {
+}

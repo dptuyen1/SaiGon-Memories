@@ -1,0 +1,25 @@
+/* Init */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.first-header {
+  display: flex;
+  justify-content: space-between;
+}
+.first-header__slogan {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.first-header__socials {
+  font-size: 1.6rem;
+}
+.social-link {
+}
