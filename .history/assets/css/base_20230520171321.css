@@ -1,0 +1,55 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: rgb(51, 51, 51);
+  --header-color: #9ba4b5;
+  --main-color: #f1f6f9;
+  --price-color: #ef5a1e;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* For responsive */
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.grid__column-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 25%;
+}
+
+.grid__column-6 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 1000%;
+}
+
+.grid__column-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
