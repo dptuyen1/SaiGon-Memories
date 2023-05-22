@@ -1,0 +1,66 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --header-color: #9ba4b5;
+  --main-color: #f1f6f9;
+  --footer-color: #d7d7d7;
+  --price-color: #ef5a1e;
+  --background-label-color: #aebdca;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* For responsive */
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.grid__column-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 25%;
+}
+
+.grid__column-6 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 50%;
+}
+
+.grid__column-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
